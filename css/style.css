@@ -518,7 +518,7 @@ body.fixed { /*스크롤 없애기*/
 	width: 90%;
 	margin: 0 auto;
 	padding: 120px 0;
-	background: url(../img/nexon_games_bg2.png) no-repeat;
+	background: url(../img/nexon_games_bg2.jpg) no-repeat;
 	background-size: cover;
 }
 #section2 .sec2_inner{
