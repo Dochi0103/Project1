@@ -778,10 +778,14 @@ body.fixed { /*스크롤 없애기*/
 
 }
 #section4 .content ul li a {
+	width: calc(100% - 82px);
 	padding: 0 20px;
 	text-wrap: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+#section4 .content ul li .date{
+	width: 82px;
 }
 #section4 .content ul li a span {
 	padding-right: 30px;
