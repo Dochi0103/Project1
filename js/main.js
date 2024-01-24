@@ -4,6 +4,7 @@ $(function(){
 
 	video.addEventListener("loadeddata", function() {
       // console.log("loaded event");
+	video.muted=ture;
 	video.play();
 	});
 
