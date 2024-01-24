@@ -1,10 +1,8 @@
 $(function(){
 	let video=document.getElementById("main_video");
-	main_video.muted=true;
-
 	video.addEventListener("loadeddata", function() {
       // console.log("loaded event");
-	video.muted=ture;
+	main_video.muted=true;
 	video.play();
 	});
 
