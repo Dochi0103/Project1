@@ -557,7 +557,7 @@ body.fixed { /*스크롤 없애기*/
 	#section2{
 		width: 90%;
 		margin: 0 auto;
-		padding: 15px 0;
+		padding: 50px 0;
 	}
 	#section2 .sec2_inner .text .title{
 		font-size: 2em;
