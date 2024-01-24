@@ -510,6 +510,9 @@ body.fixed { /*스크롤 없애기*/
 	}
 }
 @media only screen and (max-width:500px) {
+	#section1 li img {
+		height: 280px;
+	}
 	#section1 li .text .heading{
 		flex-direction: column;
 	}
@@ -775,12 +778,11 @@ body.fixed { /*스크롤 없애기*/
 	padding: 0 20px;
 	align-items: center;
 	line-height: 54px;
-
 }
 #section4 .content ul li a {
 	width: calc(100% - 82px);
 	padding: 0 20px;
-	text-wrap: nowrap;
+	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
@@ -837,7 +839,8 @@ footer .address {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 50px;
+	padding: 10px 0;
+	/* height: 50px; */
 	gap: 30px;
 }
 footer .address p {	
@@ -845,6 +848,10 @@ footer .address p {
 	font-size: 0.85em;
 }
 footer .address p span {
+	display: inline-block;
+	color: #9a9a9a;
+}
+footer .address p .front{
 	padding-right: 10px;
 	color: #fff;
 }
@@ -852,7 +859,7 @@ footer .address p span {
 	footer .address{
 		flex-direction: column;
 		gap: 1px;
-		height: none;
+		/* height: auto; */
 	}
 	footer .address p span{
 		font-size: 0.85em;
